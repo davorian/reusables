@@ -1,0 +1,21 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-col {
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.tuple-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    text-align: left;
+}
